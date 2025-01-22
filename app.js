@@ -1,9 +1,11 @@
 //JOGO AMIGO SECRETO
 
+// Cria lista amigos vazia
 let amigos = [];
 
 function adicionarAmigo() {
-    let nome = document.querySelector('input').value;
+  // Pega o nome digitado  
+  let nome = document.querySelector('input').value;
     if (nome === '') {
         alert('Por favor, insira um nome válido!');
     } else {
